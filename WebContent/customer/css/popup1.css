@@ -1,0 +1,111 @@
+
+        #popup1
+        {  
+            width:900px;
+            height:400px;;
+            border:1px solid white;
+            background-color:white;
+            top:10%;
+            padding-left: 10px;
+            position:relative;
+            margin: 0 auto;
+            background: rgb(247, 247, 247);
+            border: 2px solid rgba(147, 184, 189,0.8);
+            box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+            border-radius: 10px;
+            opacity:1;    
+        }
+        
+        #popup2
+        {  
+            width:890px;
+            height:330px;
+            background-color:white;
+            top:8%;
+            padding-right: 10px;
+            position:relative;
+            margin: 0 auto;
+            background: rgb(247, 247, 247);
+        }
+        
+        #overlay_buy
+        {
+            position:absolute;
+            top:0px;
+            visibility:hidden;   
+            opacity:1;
+            left:0px;
+            height:200%;
+            width:100%;
+            text-align:center;
+            
+        }
+        
+        #overlay_buy:target
+        {
+            visibility:visible;
+            visibility:visible;
+            background: rgba(47,47,47,0.6);
+            
+        }
+        
+        
+        
+        .login1 
+        {
+            padding:15px;
+            margin-top:0px;
+           
+        }
+        .login1 label
+        {
+            font-size:15px;
+            font-family:sans-serif;
+        }
+        
+        .login1 .input
+        {
+            display: inline;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #dedede;    
+            font-size: 1.55em;
+            padding: 5px 25px;
+            padding-left: 15px;
+            width: 200px;
+            color: #777;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+        }
+        
+        #submitbtn
+        {
+            height: 2em;
+            padding: 0em 1em;
+            border: 1px solid;
+            outline: 0;
+            font-weight: bold;
+            font-size: 1.3em;
+            color: #fff;
+            text-shadow: 0px 1px 0px #222;
+            white-space: nowrap;
+            word-wrap: normal;
+            vertical-align: middle;
+            cursor: pointer;
+            border-radius: 2px;
+            border-color: #030a03 #071807 #000;
+            box-shadow: inset 0 1px 0 rgba(256,256,256, .35);
+            background-color: #1c2107;
+            background-image: -moz-linear-gradient(top, rgb(226,238,175) 3%, rgb(188,216,77) 3%, rgb(144,176,38) 100%);
+            
+          }
+              
+        .close_button
+          {
+            position:absolute;
+            right:1px;
+            cursor:pointer;
+            border:none;
+            margin-top:-20px;
+          }
+            

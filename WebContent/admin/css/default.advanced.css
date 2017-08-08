@@ -1,0 +1,30 @@
+@import "default.css";
+
+
+/* -- Base style extension -- */
+
+ul.dropdown li a {
+ display: block;
+ padding: 5px 30px;  /* -- CHANGE SIZE OF DROP DOWN MENU -- */
+}
+
+
+/* -- Base style override -- */
+
+ul.dropdown li, ul.dropdown ul li {
+ padding: 0px;
+}
+
+
+/* -- Base style reinitiate: post-override activities -- */
+
+ul.dropdown li.dir {
+ padding: 5px 46px 5px 57.7px;   /* -- CHANGE SIZE OF DROP DOWN MENU -- */
+}
+
+
+/* -- Drop-down open -- */
+
+ul.dropdown li:hover > *.dir {
+ color: #b0d730;
+}
