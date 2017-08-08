@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+   <servlet>
+   <servlet-name>sendsms</servlet-name>
+   <servlet-class>sendsms</servlet-class> 
+   </servlet>
+   <servlet-mapping>
+   <servlet-name>sendsms</servlet-name>
+   <url-pattern>/sendsms</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+        <servlet-name>edit_item3</servlet-name>
+        <servlet-class>edit_item3</servlet-class>
+    </servlet>
+       
+    <servlet-mapping>
+        <servlet-name>edit_item3</servlet-name>
+        <url-pattern>/edit_item3</url-pattern>
+    </servlet-mapping>
+ 
+    
+    <servlet>
+        <servlet-name>add_item_detail</servlet-name>
+        <servlet-class>add_item_detail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>add_item_detail</servlet-name>
+        <url-pattern>/add_item_detail</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>edit_category</servlet-name>
+        <servlet-class>edit_category</servlet-class>
+    </servlet>  
+        <servlet-mapping>
+        <servlet-name>edit_category</servlet-name>
+        <url-pattern>/edit_category</url-pattern>
+    </servlet-mapping>
+  
+    
+    <servlet>
+        <servlet-name>signup</servlet-name>
+        <servlet-class>signup</servlet-class>
+    </servlet>
+      <servlet-mapping>
+        <servlet-name>signup</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>signin</servlet-name>
+        <servlet-class>signin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>signin</servlet-name>
+        <url-pattern>/signin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>buy</servlet-name>
+        <servlet-class>buy</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>buy</servlet-name>
+        <url-pattern>/buy</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>place_order2</servlet-name>
+        <servlet-class>place_order2</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>place_order2</servlet-name>
+        <url-pattern>/place_order2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>place_order2_unreg</servlet-name>
+        <servlet-class>place_order2_unreg</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>place_order2_unreg</servlet-name>
+        <url-pattern>/place_order2_unreg</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>place_order4</servlet-name>
+        <servlet-class>place_order4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>place_order4</servlet-name>
+        <url-pattern>/place_order4</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>place_order4_unreg</servlet-name>
+        <servlet-class>place_order4_unreg</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>place_order4_unreg</servlet-name>
+        <url-pattern>/place_order4_unreg</url-pattern>
+    </servlet-mapping>
+     
+    <servlet>
+        <servlet-name>change_pass</servlet-name>
+        <servlet-class>change_pass</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>change_pass</servlet-name>
+        <url-pattern>/change_pass</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>update_email</servlet-name>
+        <servlet-class>update_email</servlet-class>
+    </servlet>
+      <servlet-mapping>
+        <servlet-name>update_email</servlet-name>
+        <url-pattern>/update_email</url-pattern>
+    </servlet-mapping>
+   
+    <servlet>
+        <servlet-name>account</servlet-name>
+        <servlet-class>account</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>account</servlet-name>
+        <url-pattern>/account</url-pattern>
+    </servlet-mapping>
+   
+   
+    <servlet>
+        <servlet-name>address</servlet-name>
+        <servlet-class>address</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>address</servlet-name>
+        <url-pattern>/address</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>edit_category_add_field</servlet-name>
+        <servlet-class>edit_category_add_field</servlet-class>
+    </servlet>
+      <servlet-mapping>
+        <servlet-name>edit_category_add_field</servlet-name>
+        <url-pattern>/edit_category_add_field</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>change_password</servlet-name>
+        <servlet-class>change_password</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>change_password</servlet-name>
+        <url-pattern>/change_password</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>update_email_id</servlet-name>
+        <servlet-class>update_email_id</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>update_email_id</servlet-name>
+        <url-pattern>/update_email_id</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>delete_order</servlet-name>
+        <servlet-class>delete_order</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delete_order</servlet-name>
+        <url-pattern>/delete_order</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>contact_us_unreg</servlet-name>
+        <servlet-class>contact_us_unreg</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>contact_us_unreg</servlet-name>
+        <url-pattern>/contact_us_unreg</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>contact_us</servlet-name>
+        <servlet-class>contact_us</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>contact_us</servlet-name>
+        <url-pattern>/contact_us</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>send_mail</servlet-name>
+        <servlet-class>send_mail</servlet-class>
+    </servlet> 
+    <servlet-mapping>
+        <servlet-name>send_mail</servlet-name>
+        <url-pattern>/send_mail</url-pattern>
+    </servlet-mapping>
+   
+    
+    <servlet>
+        <servlet-name>feedback</servlet-name>
+        <servlet-class>feedback</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>feedback</servlet-name>
+        <url-pattern>/feedback</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>feedback_unreg</servlet-name>
+        <servlet-class>feedback_unreg</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>feedback_unreg</servlet-name>
+        <url-pattern>/feedback_unreg</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>forgot_password</servlet-name>
+        <servlet-class>forgot_password</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>forgot_password</servlet-name>
+        <url-pattern>/forgot_password</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>single_upload_page1</servlet-name>
+        <servlet-class>single_upload_page1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>single_upload_page1</servlet-name>
+        <url-pattern>/single_upload_page1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>edit_item1</servlet-name>
+        <servlet-class>edit_item1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>edit_item1</servlet-name>
+        <url-pattern>/edit_item1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>edit_item2</servlet-name>
+        <servlet-class>edit_item2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>edit_item2</servlet-name>
+        <url-pattern>/edit_item2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>category_add</servlet-name>
+        <servlet-class>category_add</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>category_add</servlet-name>
+        <url-pattern>/category_add</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>	 
+    	<servlet-name>imagejava</servlet-name>
+    	<servlet-class>imagejava</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>imagejava</servlet-name>
+    	<url-pattern>/imagejava</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    	    	
+    	<servlet-name>myServlet</servlet-name>
+    	<servlet-class>myServlet</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>myServlet</servlet-name>
+        <url-pattern>/myServlet</url-pattern>
+    </servlet-mapping>
+ 
+  
+        <session-config>
+        <session-timeout>
+            60
+        </session-timeout>
+    </session-config>
+    
+    <welcome-file-list>
+        <welcome-file>/home_page/home.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
